@@ -1,0 +1,16 @@
+---
+mandatory: True
+question: |
+  Hello, World
+subquestion: |
+  42 + your favorite number is ${total}.
+---
+question: |
+  What is your favorite number?
+
+fields: 
+  - Favorite number: favorite_number
+    datatype: integer
+---
+code: |
+  total = favorite_number + 42
